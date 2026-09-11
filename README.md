@@ -1,4 +1,8 @@
 ## Getting Started
+Realizado por Julian Leonardo Pardo Rodriguez
+Universidad Distrital Francisco Jose de Caldas
+Modelos de Programacion
+20242020133
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
