@@ -1,0 +1,22 @@
+# Java / compilación
+*.class
+*.jar
+*.war
+*.ear
+
+# Directorios de salida
+bin/
+build/
+out/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Archivos temporales
+*.log
+*.tmp
