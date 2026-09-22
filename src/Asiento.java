@@ -24,8 +24,12 @@ public class Asiento {
     }
 
     public void liberar(){
-        ocupado = false;
-        System.out.println("Asiento " + codigo + "liberado.");
+        if(!ocupado){
+            System.out.println("El asiento " + codigo + " ya está libre.");
+        } else {
+            ocupado = false;
+            System.out.println("Asiento " + codigo + " liberado.");
+        }
     }
 
     public void mostrarEstado(){

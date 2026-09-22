@@ -57,7 +57,7 @@ public class Vuelo {
         System.out.println("Capacidad: "+capacidadMaxima+" asientos");
     }
 
-    public void mostarAsiento(){
+    public void mostrarAsiento(){
         System.out.println("Estado de asientos - Vuelo "+numero+": ");
         for(Asiento a : asientos){
             a.mostrarEstado();
@@ -75,6 +75,13 @@ public class Vuelo {
     }
 
     public void desembarcar(String codigoAsiento){
-        
+        for (Asiento a : asientos) {
+            if (a.getCodigo().equals(codigoAsiento)) {
+                a.liberar();
+                return;
+            }
+        }
+        System.out.println("Asiento " + codigoAsiento + " no encontrado en vuelo " + numero + ".");
+
     }
 }
