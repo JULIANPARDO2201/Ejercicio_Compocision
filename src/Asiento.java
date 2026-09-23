@@ -16,10 +16,10 @@ public class Asiento {
 
     public void ocupar(){
         if(ocupado){
-            System.out.println("El asiento " + codigo + "esta ocupado.");
+            System.out.println("El asiento " + codigo + " esta ocupado.");
         }else{
             ocupado = true;
-            System.out.println("El asiento " + codigo + "fue asignado.");
+            System.out.println("El asiento " + codigo + " fue asignado.");
         }
     }
 
